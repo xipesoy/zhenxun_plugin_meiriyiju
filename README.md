@@ -10,6 +10,9 @@ zhenxun_bot 每日一句插件
 
 ![)S{X6HCWXW{_4WYBOL{%G@X](https://user-images.githubusercontent.com/72912346/174722929-cb7729c6-a79b-465b-8d17-0862e425f078.png)
 
+
+ps:阿咪和歌歌是只属于我的！！！
+
 ### 使用
 
 - 每日一句 + 参数，如： 每日一句 阿咪
