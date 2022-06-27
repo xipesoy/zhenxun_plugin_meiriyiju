@@ -11,26 +11,26 @@ from nonebot.adapters.onebot.v11.event import Event
 from nonebot.adapters.onebot.v11 import Bot,Message, MessageEvent
 from nonebot.adapters.onebot.v11 import Bot, GroupMessageEvent, GROUP
 
-__zx_plugin_name__ = "每日一句"
+__zx_plugin_name__ = "每日发病"
 __plugin_usage__ = """
 usage：
-    每日一句魔楞语句
+    每日发病魔楞语句
     指令：
-        每日一句（参数）
+        每日发病（参数）
 """.strip()
-__plugin_des__ = "每日一句"
+__plugin_des__ = "每日发病"
 __plugin_type__ = ("功能",)
-__plugin_cmd__ = ["每日一句/阿咪"]
+__plugin_cmd__ = ["每日发病/阿咪"]
 __plugin_settings__ = {
     "level": 5,
     "default_status": True,
     "limit_superuser": False,
-    "cmd": ["每日一句", "阿咪"],
+    "cmd": ["每日发病", "阿咪"],
 }
-__plugin_block_limit__ = {"rst": "每日一句！"}
+__plugin_block_limit__ = {"rst": "每日发病！"}
 
-aya = on_regex("^(每日一句|阿咪)$", priority=5, block=True)
-aya = on_command("每日一句", aliases={"每日一句"}, priority=5, block=True)
+aya = on_regex("^(每日发病|阿咪)$", priority=5, block=True)
+aya = on_command("每日发病", aliases={"每日发病"}, priority=5, block=True)
 
 try:
     import ujson as json
@@ -46,7 +46,7 @@ else:
 
 @aya.handle()
 async def _(bot: Bot, event: MessageEvent,arg: Message = CommandArg()):
-    isaya = re.search(r'每日一句|阿咪]', event.get_plaintext())
+    isaya = re.search(r'每日发病|阿咪]', event.get_plaintext())
     msg = arg.extract_plain_text().strip()
     cost = str(msg)
     # json数据存放路径
