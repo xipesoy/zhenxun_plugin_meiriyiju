@@ -14,6 +14,7 @@ zhenxun_bot 每日发癫插件
 
 
 ps:阿咪和歌歌是只属于我的！！！
+![KI{Q_UM7VQ2Q 4W39DVF2GT](https://user-images.githubusercontent.com/72912346/176137164-fccd6e62-a735-4db5-a606-ed8bad899545.png)
 
 ### 使用
 
