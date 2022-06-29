@@ -22,6 +22,7 @@ zhenxun_bot 每日发癫插件
 
 ![ZC`1`0(6Q~0I8EA`UMD$G2F](https://user-images.githubusercontent.com/72912346/176351275-1040ee31-42b9-4e1b-8f53-137c1a3444ee.png)
 
+![BD38646911DCC19486FC84624AB7EC8B](https://user-images.githubusercontent.com/72912346/176404022-e501ee0f-1dd6-48fd-a5fb-1e0bf350db78.jpg)
 
 ### 更新
 
