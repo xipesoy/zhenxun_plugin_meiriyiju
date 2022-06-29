@@ -19,7 +19,6 @@ usage：
         每日发癫（参数）
 """.strip()
 __plugin_des__ = "每日发癫"
-__plugin_type__ = ("功能",)
 __plugin_cmd__ = ["每日发癫/阿咪"]
 __plugin_settings__ = {
     "level": 5,
